@@ -1,0 +1,16 @@
+﻿<Window x:Class="CommandExample.Openfileexample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Openfileexample" Height="300" Width="300">
+    <DockPanel Margin="10">
+        <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="0,0,0,10">
+            <Button Name="btnOpenFile" Click="btnOpenFile_Click" Margin="10" RenderTransformOrigin="-0.652,0.323">Open file</Button>
+            <Button Name="btnSaveFile" Click="btnSaveFile_Click" Margin="10" RenderTransformOrigin="-0.652,0.323">Save file</Button>
+            <Button Name="btnOpenFolder" Click="btnOpenFolder_Click" Margin="10" RenderTransformOrigin="-0.652,0.323">Open folder</Button>
+            <Button Name="btnFont" Click="btnFont_Click" Margin="10" RenderTransformOrigin="-0.652,0.323">Change Font</Button>
+            <Button Name="btnColor" Click="btnColor_Click" Margin="10" RenderTransformOrigin="-0.652,0.323">Change Color</Button>
+        </WrapPanel>
+        <TextBox Name="txtEditor" />
+    </DockPanel>
+
+</Window>
